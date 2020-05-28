@@ -15,14 +15,6 @@ file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-with open(file_to_save,"w") as txt_file:
-    # Write some data to the file
-    txt_file.write("hELLO World!")
-    # Add more modifications
-    txt_file.write("\nCounties in the Election\n--------------------------")
-    # Write three countries to the file
-    txt_file.write(" \nArapahoe\nDenver\nJefferson") 
-
 # Open election results file and read it
 with open(file_to_load) as election_data:
     
